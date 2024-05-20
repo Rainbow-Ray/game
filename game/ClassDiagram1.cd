@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="game.Bug">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Bug.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.BugPart">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAgEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>BugPart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.Dice">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAACAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="parts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="game.Form1" Collapsed="true">
+    <Position X="19.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAIAAAAAEQAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.Game">
+    <Position X="9" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAARAwQgQAAAAAEgQhQAAASAAAIAAAAAIAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="winners" />
+      <Property Name="playerList" />
+      <Property Name="roundList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="game.GameEventArgs" Collapsed="true">
+    <Position X="21" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACAAAAAAAABAAAAAAAAAAAAAABAAABAAAAAAA=</HashCode>
+      <FileName>GameEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.GameField" Collapsed="true">
+    <Position X="17.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAAFAAADACABAAAxCAAAESARQIAABIAEAAAQAABAQ=</HashCode>
+      <FileName>GameField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.GameProcess">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQAggAAAAAAAAAACAiAAAgBAABQAABAAAAAAAEAABAA=</HashCode>
+      <FileName>GameProcess.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameProperties" />
+      <Field Name="dice" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game.GameProperties" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACEAABkAAACAAAACAAAYAAAAEGAAAAEAgAI=</HashCode>
+      <FileName>GameProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.Player">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAACAAAAAAAAAAAIBAAAAAEFAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="currentBug" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game.Program" Collapsed="true">
+    <Position X="21" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.Round">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Round.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="turnsOfPlayer" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="game.Turn">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAABAACAAAAAAAAAgAA=</HashCode>
+      <FileName>Turn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="currentPlayer" />
+      <Property Name="rollResult" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="game.Properties.Resources" Collapsed="true">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAAAAAAAAAAAIxEAAQAQAkAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.Properties.Settings" Collapsed="true">
+    <Position X="21" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game.RollResultPart" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAABAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RollResultPart.cs</FileName>
+      <NewMemberFileName>RollResultNumber.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="result" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="game.RollResultNumber">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <AssociationLine Name="result" Type="game.BugPart" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.844" Y="9.5" />
+        <Point X="2.844" Y="6.938" />
+        <Point X="2" Y="6.938" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAABAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RollResultNumber.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="result" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="game.IRollResult" Collapsed="true">
+    <Position X="15.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAABAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRollResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="game.BugParts" Collapsed="true">
+    <Position X="17.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAIAAAAABAAAAAAACAAAAQAACAAAAAAA=</HashCode>
+      <FileName>BugParts.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="game.BugState" Collapsed="true">
+    <Position X="19.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAgEABAAAQABAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BugState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
